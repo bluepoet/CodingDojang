@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.summingInt;
  * Created by bluepoet on 2016. 11. 11..
  * reference : http://codingdojang.com/scode/504?answer_mode=hide
  */
-public class Basic504_1 {
+public class Lv1504_1 {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1, 0, 1, 1, 1, 2, 1, 3, 1, 4, 1, 5);
         Map<Integer, Integer> map = numbers.stream().collect(groupingBy(Function.identity(), summingInt(e -> 1)));
